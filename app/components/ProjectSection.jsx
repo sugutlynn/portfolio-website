@@ -69,8 +69,9 @@ const ProjectSection = () => {
     setTag(newTag);
   };
 
-  const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
-  
+  const filteredProjects = projectsData.filter((project) =>
+    project.tag.includes(tag));
+
   return (
     <>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:12">
@@ -82,12 +83,12 @@ const ProjectSection = () => {
           name="All"
           isSelected={tag === "All"}
         />
-         <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
         />
-         <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
