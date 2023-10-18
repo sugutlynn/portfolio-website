@@ -12,6 +12,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>React js</li>
         <li>Typescript</li>
+        <li>Next.js</li>
         <li>Node.js</li>
         <li>TailwindCSS</li>
         <li>Flutter</li>
@@ -37,8 +38,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
         <ul className="list-disc pl-2">
-        <li>Frontenr Development Libraries</li>
-        <li>Certified Network Associate CCNA</li>
+        <li>Front-end Development Libraries</li>
+        <li>Certified Network Associate (CCNA)</li>
         
       </ul>
     ),
@@ -62,7 +63,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base md:text-lg">
-            I am a Front end developer with a passion for creating
+            I&apos;m a Frontend developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, PostgreSQL,
             HTML, CSS, and Git. I am a quick learner and I am always
