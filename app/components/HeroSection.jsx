@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -41,14 +42,20 @@ const HeroSection = () => {
           Crafting captivating web experiences is my forte. Dive into my portfolio to explore a world of exciting projects!
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-pink-500 text-white hover:bg-slate-200">
+            <Link
+              href="/contact"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+            >
               Hire Me
-            </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-pink-500 hover:bg-slate-200 text-white mt-3">
+            </Link>
+            <Link
+              href="https://docs.google.com/document/d/e/2PACX-1vQZNHANlGxFXI3BkHW46x2AeA4HIwzeL51JgrWW3QpX7R3AxufDEh9qZlr4iBC2V5ZO3t9BA_YRAqGG/pub"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </button>
+            </Link>
           </div>
         </motion.div>
         <div className="col-span-4 place-self-center mt-4 lg:mt-0">
