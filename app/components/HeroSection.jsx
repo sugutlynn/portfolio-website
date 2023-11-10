@@ -43,13 +43,13 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="/contact"
+              href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
             <Link
-              href="/contact"
+              href="/#contact"
               // href="https://docs.google.com/document/d/e/2PACX-1vQZNHANlGxFXI3BkHW46x2AeA4HIwzeL51JgrWW3QpX7R3AxufDEh9qZlr4iBC2V5ZO3t9BA_YRAqGG/pub"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
