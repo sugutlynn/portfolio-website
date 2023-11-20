@@ -59,7 +59,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <div className="col-span-4 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[500px] h-[500px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[400px] h-[400px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/portfolio-image.png"
               alt="hero image"
