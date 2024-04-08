@@ -48,7 +48,7 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 mb-4">
           <Link href="https://github.com/sugutlynn">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
@@ -56,6 +56,9 @@ const EmailSection = () => {
             <Image src={LinkedinIcon} alt="LinkedIn Icon" />
           </Link>
         </div>
+        {/* <Link className="py-8" href="https://www.paypal.com/donate/?hosted_button_id=W5RMEE5N527JA">
+        <span className="ml-2 ">Buy Me a Coffee🧋</span>
+    </Link> */}
       </div>
       <div>
         <form className="flex flex-col">
